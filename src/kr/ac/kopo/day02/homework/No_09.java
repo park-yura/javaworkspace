@@ -1,8 +1,10 @@
 package kr.ac.kopo.day02.homework;
 
 import java.util.Scanner;
-
-public class No9 {
+/*
+	다음의 결과를 보이는 프로그램을 작성
+*/
+public class No_09 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);

@@ -1,8 +1,10 @@
 package kr.ac.kopo.day02.homework;
 
 import java.util.Scanner;
-
-public class No4 {
+/*
+	화면에서 하나의 정수를 입력 받고 정수를 나눌 수를 입력 받은 다음 몫과 나머지를 화면에 출력하시오
+*/
+public class No_04 {
 	
 	public static void main(String[] args) {
 		
@@ -11,11 +13,9 @@ public class No4 {
 		
 		System.out.print("정수를 하나 입력하세요 : ");
 		int a = sc.nextInt();
-		System.out.println("정수를 하나 입력하세요 : " + a);
-		
+			
 		System.out.print("나눌 수를 입력하세요 : ");
 		int b = sc.nextInt();
-		System.out.println("나눌 수를 입력하세요 : " + b);
 		
 		System.out.println("몫 : " + a/b);
 		
@@ -25,14 +25,5 @@ public class No4 {
 		
 	}
 }
-		/*
-		int
-		System.out.println("나눌 수를 입력하세요 : " + );
 		
-		int
-		System.out.println("몫 : " + );
-		
-		int
-		System.out.println("나머지 : " + );
-		*/
 

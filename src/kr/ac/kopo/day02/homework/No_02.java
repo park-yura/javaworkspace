@@ -1,8 +1,10 @@
 package kr.ac.kopo.day02.homework;
 
 import java.util.Scanner;
-
-public class No2 {
+/*
+	3661초가 몇 시간 몇 분 몇 초인지 환산해서 출력하시오
+*/
+public class No_02 {
 
 	public static void main(String[] args) {
 		

@@ -1,8 +1,10 @@
 package kr.ac.kopo.day02.homework;
 
 import java.util.Scanner;
-
-public class No11 {
+/*
+	정수 4 개를 입력받아 가장 큰수를 출력하는 코드를 작성
+*/
+public class No_11 {
 
 	public static void main(String[] args) {
 		
@@ -13,7 +15,6 @@ public class No11 {
 		int b = sc.nextInt();
 		int c = sc.nextInt();
 		int d = sc.nextInt();
-		System.out.println("정수 4개 입력 : " + a + " " + b + " " + c + " " + d);
 		
 		int max;
 		
