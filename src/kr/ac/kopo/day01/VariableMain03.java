@@ -7,7 +7,7 @@ public class VariableMain03 {
 		int a;
 		byte b = 10;
 		
-		a = b; // '=' ´ëÀÔ¿¬»êÀÚ
+		a = b; // '=' ëŒ€ì…ì—°ì‚°ì
 		
 		final int num = 100;
 		System.out.println("num : " + num);

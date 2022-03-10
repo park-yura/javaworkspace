@@ -10,20 +10,20 @@ public class ScannerMain {
 		
 		
 		
-		System.out.print("¹®ÀÚ¸¦ ÀÔ·Â : ");
+		System.out.print("ë¬¸ìë¥¼ ì…ë ¥ : ");
 		char ch = sc.nextLine().charAt(0);
 		System.out.println("ch : " + ch);
 		
-		//System.out.print("¹®ÀÚ¿­À» ÀÔ·Â : ");
-		//String str = sc.next(); //´Ü¾î´ÜÀ§´Â next , ¶ç¾î¾²±â ¾ÈµÊ
+		//System.out.print("ë¬¸ìì—´ì„ ì…ë ¥ : ");
+		//String str = sc.next(); //ë‹¨ì–´ë‹¨ìœ„ëŠ” next , ë„ì–´ì“°ê¸° ì•ˆë¨
 		//System.out.println("str : " + str);
 		
-		System.out.print("¹®ÀÚ¿­À» ÀÔ·Â : ");
-		String str = sc.nextLine(); //¹®Àå´ÜÀ§´Â nextLine
+		System.out.print("ë¬¸ìì—´ì„ ì…ë ¥ : ");
+		String str = sc.nextLine(); //ë¬¸ì¥ë‹¨ìœ„ëŠ” nextLine
  		System.out.println("str : " + str);
 		
-		System.out.print("Á¤¼ö¸¦ ÇÏ³ª ÀÔ·ÂÇÏ¼¼¿ä : ");
-		int a = sc.nextInt(); // nextcharÀº ¾øÀ½ (¹®ÀÚÀÔ·Â x)
+		System.out.print("ì •ìˆ˜ë¥¼ í•˜ë‚˜ ì…ë ¥í•˜ì„¸ìš” : ");
+		int a = sc.nextInt(); // nextcharì€ ì—†ìŒ (ë¬¸ìì…ë ¥ x)
 		System.out.println("a : " + a);
 		
 	}

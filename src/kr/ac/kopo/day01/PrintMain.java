@@ -14,12 +14,12 @@ public class PrintMain {
 		System.out.println("Hello");
 		System.out.println(true);
 		System.out.print(23);
-		System.out.println("»ì");
-		System.out.println(23 + "¸í");
+		System.out.println("ì‚´");
+		System.out.println(23 + "ëª…");
 		System.out.println(10 + 20);
 		System.out.println(10 + "+" + 20 + "=" + (10+20));
 		
-		System.out.printf("%d»ì\n", 23);
+		System.out.printf("%dì‚´\n", 23);
 		System.out.printf("%d + %d = %d\n", 10, 20, 30);
 		System.out.printf("[%-7d]\n", 1200);
 		System.out.printf("[%-7d]\n", 950);
