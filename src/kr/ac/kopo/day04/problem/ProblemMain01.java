@@ -1,4 +1,4 @@
-package kr.ac.kopo.day04.problem;
+package kr.ac.kopo.day04.problem;  
 
 import java.util.Scanner;
 
@@ -8,16 +8,23 @@ public class ProblemMain01 {
 				
 		Scanner sc = new Scanner(System.in);
 		
-		int[] arr = new int[5];
-		int i; 
-		;
-		for( i =0; i< 5; i++) {
+		int[] num = new int[5];
+		int sum = 0;
+		
+		for(int i =0; i< 5; i++) {
 			System.out.print((i+1)+"'s num : " );
-			arr[i] = sc.nextInt();
-			
+			num[i] = sc.nextInt();
 		}
-		System.out.println("< PRINT >\t" + arr[i]);
+			System.out.println();
 		
-		
+			System.out.println("< PRINT >");
+			for(int i : num) {
+				System.out.print(i + " ");
+				sum += i;				
+			}
+			System.out.println();
+			System.out.print("\n총합 : " + sum);
+			
+			
 	}
 }
