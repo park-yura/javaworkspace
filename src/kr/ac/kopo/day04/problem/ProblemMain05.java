@@ -17,7 +17,11 @@ public class ProblemMain05 {
 		
 		if (direction == "+") {
 			for(int i = index; i < nums.length; i++) {
-				System.out.print(nums[i]+" ");
+				
+				if (i + index < 5) {
+					System.out.print(nums[i]+" ");
+					
+				}
 			}
 			for(int i = 0; i < index; i++) {
 				System.out.print(nums[i]+" ");
