@@ -1,6 +1,16 @@
 package kr.ac.kopo.day06;
 
+import java.util.Scanner;
+
 public class Gugudan {
+	
+	int total = 10; // 같은 클래스 안에 있는 매개변수는 공통의 변수 , 누구나 접근 가능
+	
+	int getDan() { //매개변수 없음
+		Scanner sc = new Scanner(System.in);
+		int dan = sc.nextInt();
+		return dan;
+	}
 
 	void print(int dan) {
 		System.out.println("*** " + dan + "단 ***");
