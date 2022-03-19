@@ -11,7 +11,7 @@ public class Icecream {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("아이스크림 몇 개 구매할꺼야?");
+		System.out.println("아이스크림 몇 개 구매할꺼야??");
 		int num = sc.nextInt();
 		int sum = 0;
 		IcecreamMain[] ice = new IcecreamMain[num];
