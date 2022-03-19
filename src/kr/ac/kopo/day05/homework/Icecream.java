@@ -2,7 +2,7 @@ package kr.ac.kopo.day05.homework;
 
 import java.util.Scanner;
 
-class IcecreamMain{
+class IceMain{
 	String name; // 아이스크림명
 	int price; // 아이스크림가격	
 }
@@ -11,14 +11,14 @@ public class Icecream {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("아이스크림 몇 개 구매할꺼야??");
+		System.out.println("아이스크림 몇 개 구매할꺼야?");
 		int num = sc.nextInt();
 		int sum = 0;
-		IcecreamMain[] ice = new IcecreamMain[num];
+		IceMain[] ice = new IceMain[num];
 				
 		for(int i = 0 ; i < num ; i++) {
 			System.out.printf("*** %d번째 아이스크림 구매정보 ***\n", i+1);
-			ice[i] = new IcecreamMain();
+			ice[i] = new IceMain();
 			
 			System.out.print("아이스크림명 : ");
 			ice[i].name = sc.next();
