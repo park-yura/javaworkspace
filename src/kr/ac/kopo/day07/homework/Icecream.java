@@ -3,9 +3,10 @@ package kr.ac.kopo.day07.homework;
 import java.util.Scanner;
 
 public class Icecream {
+	
+	Scanner sc = new Scanner(System.in);
 	String name;
 	int price;
-	Scanner sc = new Scanner(System.in);
 	int count = Integer.parseInt(sc.nextLine());
 	Icecream[] iceArr = new Icecream[count];
 	
@@ -38,7 +39,6 @@ public class Icecream {
 		int sum = 0;
 		for(int i = 0; i < iceArr[i].price; i++) {
 			sum += iceArr[i].price;
-			
 		}
 		System.out.println("총 판매액 : " + sum);
 	}
