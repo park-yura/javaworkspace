@@ -2,7 +2,7 @@ package kr.ac.kopo.day06.homework;
 
 import java.util.Scanner;
 
-public class Icecream {
+public class IcecreamStudy {
 	String name;
 	int price;
 
@@ -14,10 +14,10 @@ public class Icecream {
 		int count = sc.nextInt();
 		sc.nextLine(); // 숫자 문자 외 . 이런거 들어오면 오류남
 		
-		Icecream[] iceArr = new Icecream[count]; //클래스이름[] 주소값만 만들어진 것, 실제 아이스크림을 만들기 위해 루프 안에 작성해준다
+		IcecreamStudy[] iceArr = new IcecreamStudy[count]; //클래스이름[] 주소값만 만들어진 것, 실제 아이스크림을 만들기 위해 루프 안에 작성해준다
 			for(int i = 0; i < count; i++) {
 	
-				iceArr[i] = new Icecream(); //클래스이름() 실제 아이스크림이 만들어진 것
+				iceArr[i] = new IcecreamStudy(); //클래스이름() 실제 아이스크림이 만들어진 것
 				
 				System.out.println("*** " + (i+1) + "번째 아이스크림 구매정보 입력 ***");
 				System.out.print("아이스크림명 : ");
