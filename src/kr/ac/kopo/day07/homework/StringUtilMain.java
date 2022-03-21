@@ -33,5 +33,13 @@ public class StringUtilMain {
 		System.out.println("거꾸로 변경: " + s.reverseString(str));
 		System.out.println("대문자로 변경: " + s.toUpperString(str));
 		System.out.println("소문자로 변경: " + s.toLowerString(str));
+		
 	}
+	
+//	public static int checkChar() {
+//		Scanner sc = new Scanner(System.in);
+//		// 문자열 1번
+//				System.out.println("문자열을 입력하세요");
+//				String str = sc.next();
+//	}
 }

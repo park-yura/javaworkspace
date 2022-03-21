@@ -70,5 +70,8 @@ public class StringUtil {
 			return toLowerString;
 		}
 		
+		
+		// 문자열 1번
+//		String int checkChar()
 } 
 
