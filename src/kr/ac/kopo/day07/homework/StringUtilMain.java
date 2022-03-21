@@ -34,12 +34,20 @@ public class StringUtilMain {
 		System.out.println("대문자로 변경: " + s.toUpperString(str));
 		System.out.println("소문자로 변경: " + s.toLowerString(str));
 		
+		// 문자열 1번
+		String strData = s.getString();
+		char ch = s.getChar();
+			
+		int cnt = StringUtil.checkChar(strData, ch);
+		System.out.println(cnt);
+		
+		// 문자열 2번
+		String oriStr = s.getString();
+		char delChar = s.getChar();
+				
+		String result = StringUtil.removeChar(oriStr, delChar);
+		System.out.println(result);
+		
 	}
 	
-//	public static int checkChar() {
-//		Scanner sc = new Scanner(System.in);
-//		// 문자열 1번
-//				System.out.println("문자열을 입력하세요");
-//				String str = sc.next();
-//	}
 }

@@ -10,7 +10,7 @@ public class Icecream {
 	int count = Integer.parseInt(sc.nextLine());
 	Icecream[] iceArr = new Icecream[count];
 	
-	void input() {
+	public void input() {
 	System.out.print("아이스크림 몇개 구입하시겠습니까? => ");
 	
 		for(int i = 0; i < count; i++) {
@@ -27,7 +27,7 @@ public class Icecream {
 		}
 	}
 	
-	void info() {
+	public void info() {
 		
 	System.out.println("<총 " + iceArr.length + "개 아이스크림 구매정보 출력 >");
 	System.out.println("번호\t아이스크림명\t아이스크림가격");
@@ -41,6 +41,11 @@ public class Icecream {
 			sum += iceArr[i].price;
 		}
 		System.out.println("총 판매액 : " + sum);
+	}
+
+	public void totalInfo() {
+		// TODO Auto-generated method stub
+		
 	}
 }
 	
