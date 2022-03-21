@@ -58,7 +58,7 @@ public class StringMain03 {
 		
 		int num = 123;
 		String strNum = String.valueOf(num); // num + "" -> 문자열 변환 꼼수
-		System.out.println(strNum + 100);
+		System.out.println(strNum + 100); 
 		
 	}
 }
