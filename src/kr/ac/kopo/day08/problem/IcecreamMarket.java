@@ -7,6 +7,7 @@ public class IcecreamMarket {
 	int totalCnt;
 	int totalPrice;
 	int cnt;
+	IcecreamMarket iceM = new IcecreamMarket();
 	
 	Icecream[] iceArr = new Icecream[cnt];
 	
@@ -57,6 +58,7 @@ public class IcecreamMarket {
 			if(ch == 'n' || ch == 'N') {
 				iceM.totalInfo();
 			}
+		}
 	}
 	
 	public void totalInfo() {

@@ -10,8 +10,6 @@ public class IcecreamMain {
 		iceM.info();
 		iceM.order();
 		iceM.totalInfo();
-		
-		
-		}
+	
 	}
 }
