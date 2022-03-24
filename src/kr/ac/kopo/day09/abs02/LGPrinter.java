@@ -1,6 +1,6 @@
 package kr.ac.kopo.day09.abs02;
 
-public class LGPrinter extends Printer {
+public abstract class LGPrinter extends Printer {
 
 	public LGPrinter() {
 		
